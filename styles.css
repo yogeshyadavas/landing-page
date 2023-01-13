@@ -1,0 +1,166 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* style of navbar */
+
+header {
+  background-color: #1f2937;
+}
+nav {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1d304b;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: white;
+}
+
+.nav-item:hover a {
+  color: darkgreen;
+}
+
+.logo img {
+  width: 175px;
+  vertical-align: middle;
+}
+
+/* hero main content */
+
+.hero-main {
+  display: flex;
+  color: white;
+  gap: 3%;
+  margin: 3% 0;
+  padding: 4%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#main-one {
+  display: inline-block;
+  height: auto%;
+  width: 30%;
+}
+
+#main-two {
+  display: inline-block;
+  max-height: 200px;
+  max-width: 400px;
+  border-radius: 5%;
+}
+h1 {
+  font-size: 48px;
+}
+
+.btn-style {
+  background-color: #2e67c4;
+  width: 90px;
+  height: 30px;
+  color: #e5e7eb;
+  font-weight: bold;
+  border: none;
+  border-radius: 12%;
+}
+/* Information secton or main section */
+.main {
+  padding: 2%;
+}
+
+#info-heading {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  padding: 5%;
+  flex-wrap: wrap;
+}
+.box-item {
+  width: 200px;
+  height: auto;
+}
+.box-img {
+  border: 2px solid darkblue;
+  border-radius: 8%;
+}
+
+/* Quote section */
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 6% 15%;
+}
+cite {
+  font-weight: bold;
+}
+/* Join or Sign up section */
+.join {
+  background-color: #3882f6;
+  width: auto;
+  height: 50%;
+  margin: 4% 10%;
+  padding: 5%;
+  border-radius: 2%;
+  color: white;
+}
+#call-btn {
+  margin-left: 10%;
+  width: 120px;
+  height: 40px;
+  border: 0.1px solid white;
+  font-size: 18px;
+}
+#join-para {
+  display: inline;
+}
+
+/* footer Section */
+.footer {
+  background-color: #1f2937;
+  padding: 1%;
+  color: white;
+  text-align: center;
+}
